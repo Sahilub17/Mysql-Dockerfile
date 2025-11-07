@@ -48,7 +48,7 @@ then ctrl save & exit
 ## 4. Build Dockerfile
 
 ```shell
-docker build . -t v1
+docker build . -t :v1
 ```
 
 ## 5. check docker images
@@ -60,7 +60,7 @@ docker images
 ## 6. Docker Container run 
 
 ```shell
-docker run -d -p 3306:3306 v1
+docker run -d -p 3306:3306 :v1
 ```
 -d means detached mode 
 
